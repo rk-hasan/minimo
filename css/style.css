@@ -1,0 +1,253 @@
+/*Start Include Font Family */
+@font-face {
+    font-family: PlayfairDisplay-Regular;
+    src: url(../fonts/playfair-display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: Ubuntu-L;
+    src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+/*End Include Font Family */
+/* Start Reusable Block */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    color: #626262;
+}
+/* End Reusable Block */
+/* Start Header */
+.minimo-header{
+    padding: 35px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 1px solid green; */
+}
+.logo{
+    width: 20%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.logo img{
+    width: 100%;
+}
+/* Start Nav */
+.nav{
+    width: 75%;
+    float: right;
+    /* border: 1px solid black; */
+}
+.nav ul{
+    float: right;
+    list-style: none;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    margin-right: 100px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+}
+.nav ul li a:hover{
+    color: #000000;
+}
+.nav ul li:last-child a{
+    margin: 0;
+}
+/* End Nav */
+/* End Header */
+/* Start Banner */
+.benner{
+    padding-bottom: 35px;
+    /* border: 1px solid; */
+}
+.banner-img img{
+    width: 100%;
+}
+/* End Banner */
+/* Start Getaway */
+.container-2{
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid magenta; */
+}
+.text-title{
+    margin: 0;
+    padding: 50px 0 27px;
+    font-family: Ubuntu-L;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+.text-subtitle{
+    margin: 0;
+    padding: 0 0 40px;
+    font-weight: 400;
+    font-size: 40px;
+}
+.text-content{
+    font-size: 18px;
+    line-height: 30px;
+}
+/* End Getaway */
+/* Start Blog */
+.blog{
+    padding: 55px 0 40px;
+    /* border: 1px solid; */
+}
+.blog-content{
+    overflow: hidden;
+    /* border: 1px solid magenta; */
+}
+.blog-item{
+    width: 48%;
+    float: left;
+}
+.blog-item:nth-child(even){
+    float: right;
+}
+.item-pb{
+    padding-bottom: 120px;
+}
+.blog-img img{
+    width: 100%;
+}
+
+.mtb{
+    margin: 0;
+    padding: 28px 0;
+}
+.mtb-1{
+    margin: 0;
+    padding: 0;
+}
+.mtb-2{
+    margin: 0;
+    padding: 28px 0;
+}
+/* End Blog */
+/* Start NewsLetter */
+.newsletter{
+    margin: 12px 0 83px;
+    width: 100%;
+    background-color: #f0f0f0;
+}
+.newsletter-content{
+    width: 50%;
+    margin: 70px auto;
+    position: relative;
+}
+.newsletterText h2{
+    margin: 0 0 75px;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #333333;
+}
+.newsletterInput{
+    text-align: center;
+}
+.newsletterInput input{
+    width: 80%;
+    min-height: 30px;
+    font-size: 16px;
+    background: transparent;
+    padding-bottom: 3px;
+    border: none;
+    border-bottom: 0.5px solid #333333;
+}
+.newsletterInput input:focus{
+    outline: none;
+}
+.newsletterIcon{
+    width: 7%;
+    position: absolute;
+    top: 79%;
+    right: 9%;
+}
+.newsletterIcon img{
+    width: 80%;
+    cursor: pointer;
+}
+/* End NewsLetter */
+/* Start Load More Btn */
+.loadmore-btn{
+    text-align: center;
+    padding-bottom: 86px;
+}
+.loadmore-btn button{
+    width: 165px;
+    height: 60px;
+    background: transparent;
+    font-family: PlayfairDisplay-Regular;
+    font-weight: 400;
+    font-size: 26px;
+    color: #626262;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+    transition: ease all .6s;
+}
+.loadmore-btn button:hover{
+    background-color: #626262;
+    color: #fff;
+
+}
+/* End Load More Btn */
+/* Start Footer */
+footer{
+    overflow: hidden;
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+.left-content{
+    width: 30%;
+    float: left;
+}
+.left-content ul{
+    margin-left: -38px;
+    list-style: none;
+    float: left;
+}
+.left-content ul li{
+    display: inline-block;
+}
+.left-content ul li a{
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.left-content ul li:first-child a{
+    margin-left: 0;
+}
+/* Start Right Content */
+.right-content{
+    width: 40%;
+    float: right;
+}
+.right-content ul{
+    float: right;
+    list-style: none;
+}
+.right-content ul li{
+    display: inline-block;
+}
+.right-content ul li a{
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+.right-content ul li:last-child a{
+    margin-right: 0;
+}
+/* End Footer */
